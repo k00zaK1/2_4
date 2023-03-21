@@ -12,7 +12,7 @@ public class Main {
   System.out.println("4  iloraz ");
   int wybor =  scanner.nextInt();
     if (wybor < 1 || wybor > 4){
-      System.out.println("Spierdalaj ");
+      System.out.println("Zly wybor ");
      return;
     }
   System.out.print("Podaj liczbę a: ");
